@@ -8,25 +8,22 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    justify-content: space-between;
 }
 
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding-left: max(5%, 20px);
-    padding-right: max(5%, 20px);
+    padding-left: 200px;
+    padding-right: 200px;
     display: flex; 
     flex-direction: column;
-    gap: 20px;
+    gap: 50px;
 }
 
 .header {
     display: flex;
-    gap: 1000px;
-    padding-top: 10px;
-    justify-content: center;
+    padding-top: 20px;
+    justify-content: space-between;
 }
 
 .links {
@@ -42,14 +39,14 @@ body {
 
 .intro {
     display: flex; 
-    justify-content: space-evenly;
-    padding-bottom: 20px;
+    justify-content: space-between;
+    padding-bottom: 100px;
 }
 
 .intro-text {
     width: 100%;
-    max-width: 700px;
-    min-height: 200px;
+    width: 950px;
+    height: 200px;
 }
 
 .intro img {
@@ -61,25 +58,25 @@ body {
     display: flex; 
     flex-direction: column;
     align-items: center;
-    padding-top: 20px; 
-    padding-bottom: 20px;
+    padding-top: 100px; 
+    padding-bottom: 100px;
 }
 
 .scenes {
     display: flex;
     justify-content: center; 
-    gap: 50px;
+    gap: 200px;
 }
 
 .scenes img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
 }
 
 .captions {
     display: flex;
     justify-content: center;
-    gap: 150px
+    gap: 500px
 }
 
 .quote {
@@ -87,21 +84,27 @@ body {
     display: flex; 
     align-items: center;
     justify-content: center;
-    padding: 30px max(5%, 20px);
 }
 
 .our-father {
     font-style: italic;
-    font-size: 26px; 
+    font-size: 36px; 
     color: #1F2937; 
     font-weight: 300;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 300px; 
+    padding-right: 300px;
 }
 
 .call {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .inside-box {
@@ -110,7 +113,7 @@ body {
     justify-content: space-between;
     gap: 100px;
     border-radius: 6px;
-    padding: 40px;
+    padding: 50px;
 }
 
 button {
@@ -133,5 +136,5 @@ button:active {
     display: flex; 
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 }
