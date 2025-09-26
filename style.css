@@ -76,7 +76,7 @@ body {
 .captions {
     display: flex;
     justify-content: center;
-    gap: 500px
+    gap: 400px
 }
 
 .quote {
